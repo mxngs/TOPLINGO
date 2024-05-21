@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Tradutor</title>
+</head>
+<body>
+
+    <header>
+
+        <!-- Div decoração na parte esquerda do site -->
+        <div class="retangulo1"></div>
+
+        <!-- Div pai para mudar a logo de lugar com facilidade -->
+        <div class="container1">
+            <div class="logo">
+                <h1>TOPLINGO</h1>
+            </div>
+        </div>
+
+        <!-- div onde muda o tema do fundo para (claro/escuro) -->
+        <div class="modoEscuro">
+            <!-- input que faz a "caixa" onde clicando vc muda o tema -->
+            <input type="checkbox" class="checkbox" id="chk" />
+            <!-- label para chamar os elementos -->
+            <label class="label" for="chk">
+              <i class="fas fa-moon"></i>
+              <i class="fas fa-sun"></i>
+              <div class="ball"></div>
+            </label>
+          </div>
+      
+          <!-- icones sol/lua -->
+          <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+        
+
+          <header>
+            <!-- Div decoração na parte esquerda do site -->
+            <div class="retangulo1"></div>
+    
+            <!-- Div pai para mudar a logo de lugar com facilidade -->
+            <div class="container1">
+                <div class="logo">
+                    <h1>TOPLINGO</h1>
+                </div>
+            </div>
+    
+            <!-- div onde muda o tema do fundo para (claro/escuro) -->
+            <div class="modoEscuro">
+                <!-- input que faz a "caixa" onde clicando vc muda o tema -->
+                <input type="checkbox" class="checkbox" id="chk" />
+                <!-- label para chamar os elementos -->
+                <label class="label" for="chk">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                  <div class="ball"></div>
+                </label>
+            </div>
+          
+            <!-- icones sol/lua -->
+            <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+        </header>
+    
+        <main>   
+            <!-- container onde guarda os card/input para traduzir -->
+            <div class="container3">
+                <!-- card onde guarda a lingua que irá ser traduzida -->
+                <div class="card">
+                    <input class="caixaDeTexto1" type="text" id="text" placeholder="Escreva aqui">
+                    <select class="linguas"></select>
+                </div>
+    
+                <!-- linha -->
+                <hr>
+    
+                <!-- div para dar espaço entre os input pq o padding não funcionou -->
+                <div class="espaco"></div>
+    
+                <!-- card onde guarda a lingua que já foi traduzida -->
+                <div class="card2">
+                    <input class="caixaDeTexto2" type="text" id="traducao" placeholder="Tradução..." disabled>
+                    <select class="linguas2"></select>
+                </div>
+            </div>
+    
+            <!-- linha -->
+            <hr>
+    
+            <!-- div que guarda o botao -->
+            <div class="container">
+                <!-- botao de reconhecimento de voz -->
+                <button id="botaoVoz">Ativar Reconhecimento de Voz</button>
+            
+                <!-- botao para traduzir -->
+                <button id="botao">Traduzir</button>
+    
+                <button id="botaoFalar" class="botao-falar">
+                  <i class="fas fa-volume-up"></i>
+                </button>
+                
+
+            </div>
+        </main>
+    
+        <footer>
+            <div class="container4">
+                <!-- Nome dos integrantes -->
+                <div class="integrantes">
+                    <p>Gabrielle Bueno e Luana Santos</p>
+                </div>
+            </div>
+        </footer>
+    
+    </body>
+    </html>
